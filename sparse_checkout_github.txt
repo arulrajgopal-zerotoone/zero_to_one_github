@@ -1,0 +1,12 @@
+cd C:\Users\Admin\Desktop\
+git clone --no-checkout https://github.com/ArulrajGopal/zero_to_one_java.git
+cd zero_to_one_java
+
+git sparse-checkout init --cone
+
+git sparse-checkout set InbuiltAnnotations
+
+git checkout main
+
+
+
